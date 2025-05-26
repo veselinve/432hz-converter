@@ -3,11 +3,29 @@
 **Turn whole music folders from standard 440 Hz to 432 Hz with a single click.**
 A Tk-based GUI + CLI, ships its own FFmpeg so users don’t have to install anything.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
-![PyInstaller](https://img.shields.io/badge/Built%20with-PyInstaller-ff69b4)
-![License](https://img.shields.io/github/license/YOUR-NAME/432hz-converter)
+“When you want to find the secrets of the Universe, think in terms of frequency and vibration.” — Nikola Tesla
 
----
+This little alchemical app retunes your music library from the modern 440 Hz standard back to A = 432 Hz — a tuning many listeners describe as calmer, heart‑opening, and cosmically aligned. Drop in an album, press start, and let your songs breathe a more natural resonance.
+
+🌟 Why 432 Hz?
+
+Feeling
+
+Science & Lore
+
+Soothing body & mind
+
+A‑432 sits ~8 Hz below modern pitch — the same delta as the brain’s alpha–theta threshold. Many meditators report deeper relaxation.
+
+Golden ratio geometry
+
+1 + 1 / φ² ≈ 0 . 432… — the number weaves through sacred art and nature’s spirals.
+
+Planetary resonance
+
+432 Hz × 60 = 25 920 Hz, echoing Earth’s precessional cycle (the “Great Year”).
+
+(Whether you call it metaphysics, psychoacoustics, or just a nicer vibe, try for yourself — ears over theory!)
 
 ## ✨ Features
 
@@ -86,9 +104,6 @@ requirements.txt         runtime deps for developers
 ## 🚧 Roadmap
 
 - [ ] macOS notarised `.app` bundle
-- [ ] Real-time preview player with SoX
-- [ ] Dark theme via `ttkbootstrap`
-- [ ] GitHub Actions: auto-build EXE on every tag
 
 ---
 

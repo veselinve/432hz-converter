@@ -78,7 +78,8 @@ Result appears in `dist/batch_432_converter.exe`.
 
 ## 🖥 Screenshot
 
-![GUI screenshot](assets/screenshot.png)
+![Converter](https://github.com/user-attachments/assets/492afd75-9068-4a72-a631-e7dcf7738428)
+
 
 ---
 

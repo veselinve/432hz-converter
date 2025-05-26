@@ -57,14 +57,6 @@ $ pip install -r requirements.txt  # tkinterdnd2, tqdm
 # run the GUI
 $ python batch_432_converter.py
 ```
-
-### CLI example
-
-```bash
-python batch_432_converter.py "D:/Albums" -r \
-       --out "E:/Converted" --keep
-```
-
 ---
 
 ## 🛠 Build a portable EXE (Windows)
@@ -93,7 +85,7 @@ Result appears in `dist/batch_432_converter.exe`.
 ## 📚 Code layout
 
 ```text
-batch_432_converter.py   main script (GUI + CLI)
+batch_432_converter.py   main script (GUI)
 ffmpeg/                  put static FFmpeg build here (ffmpeg.exe, ffprobe.exe)
 assets/                  icons, screenshots
 requirements.txt         runtime deps for developers
@@ -116,4 +108,4 @@ Run `python batch_432_converter.py --test` before committing—unit tests must p
 
 ## 📄 License
 
-MIT © 2025 YOUR NAME
+MIT © 2025 Veselinve

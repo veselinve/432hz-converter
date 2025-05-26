@@ -1,7 +1,7 @@
 # 432 Hz Batch Converter 🎵
 
 **Turn whole music folders from standard 440 Hz to 432 Hz with a single click.**
-A Tk-based GUI + CLI, ships its own FFmpeg so users don’t have to install anything.
+A Tk-based GUI, ships its own FFmpeg so users don’t have to install anything.
 
 “When you want to find the secrets of the Universe, think in terms of frequency and vibration.” — Nikola Tesla
 

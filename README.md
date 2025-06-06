@@ -1,13 +1,31 @@
 # 432 Hz Batch Converter 🎵
 
 **Turn whole music folders from standard 440 Hz to 432 Hz with a single click.**
-A Tk-based GUI + CLI, ships its own FFmpeg so users don’t have to install anything.
+A Tk-based GUI, ships its own FFmpeg so users don’t have to install anything.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
-![PyInstaller](https://img.shields.io/badge/Built%20with-PyInstaller-ff69b4)
-![License](https://img.shields.io/github/license/YOUR-NAME/432hz-converter)
+“When you want to find the secrets of the Universe, think in terms of frequency and vibration.” — Nikola Tesla
 
----
+This little alchemical app retunes your music library from the modern 440 Hz standard back to A = 432 Hz — a tuning many listeners describe as calmer, heart‑opening, and cosmically aligned. Drop in an album, press start, and let your songs breathe a more natural resonance.
+
+🌟 Why 432 Hz?
+
+Feeling
+
+Science & Lore
+
+Soothing body & mind
+
+A‑432 sits ~8 Hz below modern pitch — the same delta as the brain’s alpha–theta threshold. Many meditators report deeper relaxation.
+
+Golden ratio geometry
+
+1 + 1 / φ² ≈ 0 . 432… — the number weaves through sacred art and nature’s spirals.
+
+Planetary resonance
+
+432 Hz × 60 = 25 920 Hz, echoing Earth’s precessional cycle (the “Great Year”).
+
+(Whether you call it metaphysics, psychoacoustics, or just a nicer vibe, try for yourself — ears over theory!)
 
 ## ✨ Features
 
@@ -39,14 +57,6 @@ $ pip install -r requirements.txt  # tkinterdnd2, tqdm
 # run the GUI
 $ python batch_432_converter.py
 ```
-
-### CLI example
-
-```bash
-python batch_432_converter.py "D:/Albums" -r \
-       --out "E:/Converted" --keep
-```
-
 ---
 
 ## 🛠 Build a portable EXE (Windows)
@@ -68,14 +78,15 @@ Result appears in `dist/batch_432_converter.exe`.
 
 ## 🖥 Screenshot
 
-![GUI screenshot](assets/screenshot.png)
+![Converter](https://github.com/user-attachments/assets/492afd75-9068-4a72-a631-e7dcf7738428)
+
 
 ---
 
 ## 📚 Code layout
 
 ```text
-batch_432_converter.py   main script (GUI + CLI)
+batch_432_converter.py   main script (GUI)
 ffmpeg/                  put static FFmpeg build here (ffmpeg.exe, ffprobe.exe)
 assets/                  icons, screenshots
 requirements.txt         runtime deps for developers
@@ -86,9 +97,6 @@ requirements.txt         runtime deps for developers
 ## 🚧 Roadmap
 
 - [ ] macOS notarised `.app` bundle
-- [ ] Real-time preview player with SoX
-- [ ] Dark theme via `ttkbootstrap`
-- [ ] GitHub Actions: auto-build EXE on every tag
 
 ---
 
@@ -101,4 +109,4 @@ Run `python batch_432_converter.py --test` before committing—unit tests must p
 
 ## 📄 License
 
-MIT © 2025 YOUR NAME
+MIT © 2025 Veselinve
